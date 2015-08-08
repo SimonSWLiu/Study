@@ -1,6 +1,7 @@
 package com.onemenu.server.filter;
 
 import javax.servlet.http.HttpServletRequest;
+
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
@@ -25,7 +26,7 @@ public class PermissionInterceptor extends HandlerInterceptorAdapter implements 
 
     private Logger log = Logger.getLogger(PermissionInterceptor.class);
 
-    public PermissionInterceptor() {
+    private PermissionInterceptor() {
         // TODO Auto-generated constructor stub
     }
 

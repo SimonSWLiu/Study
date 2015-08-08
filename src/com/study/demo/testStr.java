@@ -19,6 +19,7 @@ public class testStr {
     	a = a.concat("xxx");
     	b = b.append("yyy");
     	c += 10;
+    	System.out.println(a + "," + b + "," + c);
     	
     }
 }
