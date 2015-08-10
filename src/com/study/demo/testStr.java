@@ -1,5 +1,7 @@
 package com.study.demo;
 
+import java.util.concurrent.TimeUnit;
+
 
 public class testStr {
 
@@ -12,6 +14,8 @@ public class testStr {
         operator(a,b,c);
         
         System.out.println(a + "," + b + "," + c);
+        
+        System.out.println(TimeUnit.SECONDS);
     }
 
     static void operator(String a, StringBuffer b, int c){
